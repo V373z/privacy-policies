@@ -1,1 +1,203 @@
+DATENSCHUTZERKLÄRUNG FÜR GLOWTAIL
+
+Stand: 20. August 2026
+
+1. Verantwortlicher
+
+Verantwortlich für Glowtail:
+
+[Paul Hoffmann]
+[n1kov373z@gmail.com]
+
+Glowtail ist ein unabhängiger Client für Firefly III. Glowtail ist weder mit Firefly III verbunden noch wird das Projekt von Firefly III unterstützt oder empfohlen.
+
+2. Geltungsbereich
+
+Diese Datenschutzerklärung beschreibt, welche Daten Glowtail verarbeitet, wenn die App verwendet wird.
+
+Glowtail ist ein Client für eine vom Nutzer selbst ausgewählte Firefly-III-Instanz. Glowtail betreibt keinen eigenen Server zur Speicherung oder Verarbeitung der Finanzdaten des Nutzers.
+
+3. Verbindung mit Firefly III
+
+Zur Verwendung von Glowtail gibt der Nutzer die Adresse seiner Firefly-III-Instanz sowie ein Personal Access Token (PAT) ein.
+
+Glowtail verwendet diese Daten, um im Auftrag des Nutzers mit der angegebenen Firefly-III-Instanz zu kommunizieren.
+
+Dabei können insbesondere folgende Daten zwischen Glowtail und der vom Nutzer ausgewählten Firefly-III-Instanz übertragen werden:
+
+* Konten und Kontoinformationen
+* Kontostände
+* Transaktionen und Buchungen
+* Beträge
+* Kategorien
+* Tags
+* Beschreibungen
+* Notizen
+* Split-Transaktionen
+* Suchbegriffe und Suchfilter
+* sonstige Daten, die über die Firefly-III-API für die verwendeten Funktionen benötigt werden
+
+Diese Daten werden nicht an einen eigenen Glowtail-Server übertragen.
+
+Der Betreiber der vom Nutzer ausgewählten Firefly-III-Instanz ist für die Verarbeitung der dort gespeicherten Daten verantwortlich.
+
+4. Speicherung von Zugangsdaten
+
+Die Serveradresse und das Personal Access Token werden auf unterstützten Geräten über die sichere Speicherfunktion der jeweiligen Plattform gespeichert.
+
+Unter Android verwendet Glowtail hierfür die von .NET MAUI bereitgestellte Secure-Storage-Funktion, die auf den Sicherheitsmechanismen des Android-Betriebssystems basiert.
+
+Das Personal Access Token wird nicht absichtlich in normalen App-Einstellungen, Protokolldateien oder öffentlich zugänglichen Dateien gespeichert.
+
+Beim Abmelden werden die gespeicherte Firefly-Serveradresse und das Personal Access Token aus dem von Glowtail verwendeten Zugangsspeicher entfernt.
+
+5. Lokal gespeicherte Einstellungen
+
+Glowtail speichert bestimmte Einstellungen lokal auf dem Gerät. Dazu können beispielsweise gehören:
+
+* Erscheinungsbild der App
+* ausgewählte Konten für Auswertungen
+* sonstige Benutzer- und Darstellungseinstellungen
+
+Diese Einstellungen dienen ausschließlich der Funktion und Bedienung der App.
+
+Abhängig von den Einstellungen und Sicherungsmechanismen des Betriebssystems können bestimmte nicht sensible App-Einstellungen Bestandteil einer Gerätesicherung sein.
+
+6. Finanzdaten
+
+Glowtail verarbeitet persönliche Finanzdaten ausschließlich zur Bereitstellung der vom Nutzer aufgerufenen Funktionen.
+
+Dazu können insbesondere gehören:
+
+* Kontodaten
+* Kontostände
+* Einnahmen und Ausgaben
+* Transaktionshistorie
+* Kategorien
+* Tags
+* Beschreibungen
+* Notizen
+
+Diese Daten werden aus der vom Nutzer angegebenen Firefly-III-Instanz geladen oder an diese übertragen.
+
+Glowtail übermittelt diese Finanzdaten nicht an den Entwickler von Glowtail.
+
+7. Werbung, Analyse und Tracking
+
+Glowtail verwendet derzeit keine:
+
+* Werbenetzwerke
+* Google AdMob
+* Google Analytics
+* Firebase Analytics
+* Firebase Crashlytics
+* Tracking-SDKs
+* Telemetrie-Dienste
+
+Glowtail verwendet keine Werbe-ID und erstellt keine Nutzerprofile zu Werbe- oder Analysezwecken.
+
+8. Weitergabe von Daten
+
+Glowtail verkauft keine personenbezogenen Daten.
+
+Glowtail gibt personenbezogene oder finanzielle Daten nicht an den Entwickler oder an Werbe- beziehungsweise Analysedienste weiter.
+
+Daten werden nur im Rahmen der vom Nutzer ausgelösten Funktionen an die vom Nutzer selbst konfigurierte Firefly-III-Instanz übertragen.
+
+9. Netzwerkverbindungen
+
+Glowtail benötigt eine Netzwerkverbindung, um mit der vom Nutzer angegebenen Firefly-III-Instanz zu kommunizieren.
+
+Die Verwendung einer HTTPS-Verbindung wird empfohlen, da sie die übertragenen Zugangsdaten und Finanzinformationen während der Übertragung schützt.
+
+Wenn der Nutzer eine unverschlüsselte HTTP-Verbindung zu einer lokalen oder selbst gehosteten Instanz verwendet, können übertragene Daten im jeweiligen Netzwerk grundsätzlich mitgelesen oder verändert werden.
+
+Der Nutzer ist für die Konfiguration und Absicherung seiner Firefly-III-Instanz und der verwendeten Netzwerkverbindung verantwortlich.
+
+10. Externe Links
+
+Glowtail kann Links zu externen Webseiten enthalten.
+
+Dazu kann insbesondere ein freiwilliger Link zur Unterstützung des Glowtail-Projekts gehören.
+
+Wenn ein Nutzer einen solchen Link öffnet, verlässt er Glowtail und verwendet einen externen Dienst. Für die dortige Datenverarbeitung gelten die Datenschutzbestimmungen des jeweiligen Anbieters.
+
+Glowtail übermittelt beim bloßen Anzeigen der App keine Finanzdaten oder Firefly-Zugangsdaten an diese externen Dienste.
+
+11. Freiwillige Unterstützung des Projekts
+
+Glowtail kann einen externen Link zu einer Plattform enthalten, über die Nutzer das Projekt freiwillig finanziell unterstützen können.
+
+Diese Unterstützung ist freiwillig und nicht erforderlich, um Glowtail zu verwenden.
+
+Mit einer Unterstützung sind derzeit keine zusätzlichen digitalen Funktionen, Inhalte oder sonstigen Vorteile innerhalb von Glowtail verbunden.
+
+Zahlungsdaten werden nicht von Glowtail verarbeitet. Die Zahlungsabwicklung erfolgt ausschließlich über den jeweiligen externen Anbieter.
+
+12. App-Berechtigungen
+
+Glowtail benötigt für seine aktuelle Kernfunktionalität lediglich normale Netzwerkberechtigungen, um eine Verbindung mit der vom Nutzer ausgewählten Firefly-III-Instanz herzustellen.
+
+Glowtail fordert derzeit insbesondere keinen Zugriff auf folgende Daten oder Gerätefunktionen an:
+
+* Standort
+* Kontakte
+* Kamera
+* Mikrofon
+* Telefon oder SMS
+* Kalender
+* Fotos oder Medien
+* externen Speicher
+* Werbe-ID
+
+Sollten zukünftige Funktionen zusätzliche Berechtigungen benötigen, wird diese Datenschutzerklärung entsprechend aktualisiert.
+
+13. Datenaufbewahrung und Löschung
+
+Glowtail betreibt kein eigenes Benutzerkonto und keinen eigenen Cloud-Datenspeicher für Finanzdaten.
+
+Die Finanzdaten befinden sich auf der vom Nutzer ausgewählten Firefly-III-Instanz. Die Aufbewahrung und Löschung dieser Daten richtet sich nach der Konfiguration und den Funktionen dieser Instanz.
+
+Durch Abmelden in Glowtail werden die gespeicherten Zugangsdaten der Firefly-Verbindung aus dem von Glowtail verwendeten Zugangsspeicher entfernt.
+
+Weitere lokal gespeicherte App-Einstellungen können durch Löschen der App-Daten oder durch Deinstallation der App entfernt werden.
+
+Das Löschen von Daten auf der Firefly-III-Instanz muss über Firefly III beziehungsweise den Betreiber der jeweiligen Instanz erfolgen.
+
+14. Datensicherheit
+
+Glowtail verwendet die Sicherheitsfunktionen des Betriebssystems und des .NET-MAUI-Frameworks zur Speicherung von Zugangsdaten.
+
+Bei HTTPS-Verbindungen erfolgt die Datenübertragung über die üblichen TLS-Sicherheitsmechanismen des Betriebssystems.
+
+Trotz angemessener technischer Maßnahmen kann keine Datenübertragung oder Datenspeicherung vollständig gegen alle Risiken geschützt werden.
+
+15. Kinder
+
+Glowtail richtet sich nicht speziell an Kinder.
+
+Die App ist für die Verwaltung persönlicher Finanzdaten vorgesehen.
+
+Glowtail erhebt nicht wissentlich personenbezogene Daten von Kindern für Werbung, Analyse oder Profilbildung.
+
+16. Firefly III
+
+Firefly III ist ein eigenständiges Open-Source-Projekt.
+
+Glowtail ist ein unabhängiger Client für Firefly III und ist weder mit Firefly III verbunden noch von Firefly III autorisiert, unterstützt oder empfohlen.
+
+Für Daten, die auf einer Firefly-III-Instanz gespeichert oder verarbeitet werden, gelten zusätzlich die Datenschutz- und Betriebsbedingungen des jeweiligen Betreibers dieser Instanz.
+
+17. Änderungen dieser Datenschutzerklärung
+
+Diese Datenschutzerklärung kann angepasst werden, wenn sich Funktionen, Datenverarbeitung oder gesetzliche beziehungsweise technische Anforderungen ändern.
+
+Die jeweils aktuelle Version wird über die in der App beziehungsweise im jeweiligen App-Store angegebene Adresse bereitgestellt.
+
+18. Kontakt
+
+Bei Fragen zum Datenschutz oder zur Verarbeitung personenbezogener Daten:
+
+[Paul Hoffmann]
+[n1kov373z@gmail.com]
 
