@@ -1,1 +1,203 @@
 
+PRIVACY POLICY FOR GLOWTAIL
+
+Last updated: August 20, 2026
+
+1. Controller / Publisher
+
+Glowtail is provided by:
+
+[Paul Hoffmann]
+[n1kov373z@gmail.com]
+
+Glowtail is an independent client for Firefly III. Glowtail is not affiliated with, endorsed by, or supported by Firefly III.
+
+2. Scope
+
+This Privacy Policy explains which data Glowtail processes when the application is used.
+
+Glowtail is a client for a Firefly III instance selected and configured by the user. Glowtail does not operate its own server for storing or processing the user's financial data.
+
+3. Connection to Firefly III
+
+To use Glowtail, the user provides the address of a Firefly III instance and a Personal Access Token (PAT).
+
+Glowtail uses this information to communicate with the selected Firefly III instance on behalf of the user.
+
+Depending on the functions used, the following information may be transferred between Glowtail and the user's Firefly III instance:
+
+* accounts and account information
+* account balances
+* transactions
+* amounts
+* categories
+* tags
+* descriptions
+* notes
+* split transactions
+* search terms and search filters
+* other data required by the Firefly III API for the requested functionality
+
+This information is not sent to a Glowtail-operated server.
+
+The operator of the Firefly III instance selected by the user is responsible for the processing and storage of data on that instance.
+
+4. Storage of Credentials
+
+The Firefly III server address and Personal Access Token are stored using the secure storage functionality provided by the supported platform.
+
+On Android, Glowtail uses the Secure Storage functionality provided by .NET MAUI, which relies on security mechanisms provided by the Android operating system.
+
+Glowtail does not intentionally store the Personal Access Token in ordinary application preferences, log files, or publicly accessible files.
+
+When the user logs out, the stored Firefly III server address and Personal Access Token are removed from the credential storage used by Glowtail.
+
+5. Locally Stored Settings
+
+Glowtail stores certain application settings locally on the device. These may include, for example:
+
+* application appearance settings
+* accounts selected for financial summaries
+* other user interface and application preferences
+
+These settings are used solely to provide and customize application functionality.
+
+Depending on the operating system and device backup configuration, certain non-sensitive application settings may be included in a device backup.
+
+6. Financial Information
+
+Glowtail processes personal financial information only for the purpose of providing the functionality requested by the user.
+
+This may include:
+
+* account information
+* account balances
+* income and expenses
+* transaction history
+* categories
+* tags
+* descriptions
+* notes
+
+This information is retrieved from or transmitted to the Firefly III instance configured by the user.
+
+Glowtail does not transmit this financial information to the developer of Glowtail.
+
+7. Advertising, Analytics and Tracking
+
+Glowtail currently does not use:
+
+* advertising networks
+* Google AdMob
+* Google Analytics
+* Firebase Analytics
+* Firebase Crashlytics
+* tracking SDKs
+* telemetry services
+
+Glowtail does not use an advertising identifier and does not create user profiles for advertising or analytics purposes.
+
+8. Sharing of Data
+
+Glowtail does not sell personal information.
+
+Glowtail does not share personal or financial information with the Glowtail developer, advertising networks, or analytics providers.
+
+Information is transmitted only as required by functions initiated by the user to the Firefly III instance configured by the user.
+
+9. Network Connections
+
+Glowtail requires a network connection to communicate with the Firefly III instance configured by the user.
+
+The use of HTTPS is recommended because it protects credentials and financial information while they are being transmitted.
+
+If the user chooses to connect to a local or self-hosted Firefly III instance using an unencrypted HTTP connection, transmitted information may potentially be read or modified by other parties on the relevant network.
+
+The user is responsible for the configuration and security of their Firefly III instance and network connection.
+
+10. External Links
+
+Glowtail may contain links to external websites.
+
+This may include a voluntary link allowing users to support the Glowtail project.
+
+When the user opens an external link, they leave Glowtail and interact with a third-party service. The processing of data by that service is governed by the privacy policy of the respective provider.
+
+Glowtail does not transmit Firefly III credentials or financial information to such external services merely by displaying the application.
+
+11. Voluntary Support of the Project
+
+Glowtail may provide an external link through which users can voluntarily support the project financially.
+
+Such support is optional and is not required to use Glowtail.
+
+At present, providing financial support does not grant additional digital functionality, content, features, badges, or other benefits within Glowtail.
+
+Glowtail does not process payment information. Payment processing is handled entirely by the respective external provider.
+
+12. Application Permissions
+
+For its current core functionality, Glowtail requires only ordinary network-related permissions necessary to communicate with the Firefly III instance selected by the user.
+
+Glowtail currently does not request access to, among other things:
+
+* location
+* contacts
+* camera
+* microphone
+* phone or SMS
+* calendar
+* photos or media
+* external storage
+* advertising identifier
+
+If future functionality requires additional permissions, this Privacy Policy will be updated accordingly.
+
+13. Data Retention and Deletion
+
+Glowtail does not operate its own user account system or cloud storage for financial information.
+
+Financial information remains stored on the Firefly III instance selected by the user. Retention and deletion of such information are governed by the configuration and functionality of that instance.
+
+Logging out of Glowtail removes the stored Firefly III connection credentials from the credential storage used by Glowtail.
+
+Other locally stored application preferences can be removed by clearing the application's data or uninstalling the application.
+
+Deletion of information stored on a Firefly III instance must be performed through Firefly III or through the operator of the respective instance.
+
+14. Data Security
+
+Glowtail uses security functionality provided by the operating system and .NET MAUI to store credentials.
+
+When HTTPS is used, communication is protected using the standard TLS mechanisms provided by the operating system.
+
+Although reasonable technical measures are used, no method of electronic transmission or storage can be guaranteed to be completely secure.
+
+15. Children
+
+Glowtail is not specifically directed at children.
+
+The application is intended for managing personal financial information.
+
+Glowtail does not knowingly collect information from children for advertising, analytics, or profiling purposes.
+
+16. Firefly III
+
+Firefly III is a separate open-source project.
+
+Glowtail is an independent client for Firefly III and is not affiliated with, authorized by, endorsed by, or supported by Firefly III.
+
+Information stored or processed by a Firefly III instance may also be subject to the privacy and operational policies of the operator of that instance.
+
+17. Changes to this Privacy Policy
+
+This Privacy Policy may be updated when application functionality, data processing practices, or legal or technical requirements change.
+
+The current version will be made available through the address provided in the application and/or the relevant application store listing.
+
+18. Contact
+
+For questions concerning privacy or the processing of personal information:
+
+[Paul Hoffmann]
+[n1kov373z@gmail.com]
